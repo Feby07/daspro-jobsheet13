@@ -29,7 +29,7 @@ public class Kafe07Modifikasi2 {
         System.out.println();
         Menu("Budi", false, "DISKON30");
         System.out.println();
-        Menu
+        Menu("Citra". true, "INVALID");
     }
 }
 

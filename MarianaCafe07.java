@@ -5,14 +5,14 @@ public class MarianaCafe07 {
     static int[][]  penjualan = new int[5][7];
 
     public static void inputDataPenjualan() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Input Data Penjualan");
         
         for (int i = 0; i < menu.length; i++) {
             System.out.println("Masukkan data penjualan untuk menu: " + menu[i]);
             for (int j = 0; j < 7; j++) {
                 System.out.print("Hari ke-" + (j + 1) + ": ");
-                penjualan[i][j] = scanner.nextInt();
+                penjualan[i][j] = sc.nextInt();
             }
             System.out.println();
         }
@@ -57,12 +57,12 @@ public class MarianaCafe07 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukkan jumlah menu: ");
-        int jumlahMenu = scanner.nextInt();
+        int jumlahMenu = sc.nextInt();
         System.out.print("Masukkan jumlah hari: ");
-        int jumlahHari = scanner.nextInt();
+        int jumlahHari = sc.nextInt();
 
         inputDataPenjualan();
 

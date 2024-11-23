@@ -20,7 +20,7 @@ public class Kafe07 {
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Menu("Andi", true);
+            Menu("Andi", true);
 
         System.out.print("\nMasukkan nomor menu yang ingin Anda pesan: ");
         int pilihanMenu = sc.nextInt();
